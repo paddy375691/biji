@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ce6fe6e-eaba-4d33-ba17-f64bab9c421d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="devops_api" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/libs/repos" />
+  </component>
+  <component name="ProjectId" id="2AmCNU9ZJl3mN0Xx54FUHL3cyx3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../devops_web" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lizhenliang\PycharmProjects\221\devops_api\libs" />
+      <recent name="C:\Users\lizhenliang\PycharmProjects\221\devops_api\app_release\files" />
+      <recent name="C:\Users\lizhenliang\PycharmProjects\221\devops_api\app_release" />
+      <recent name="C:\Users\lizhenliang\PycharmProjects\221\devops_api\cmdb\files" />
+      <recent name="C:\Users\lizhenliang\PycharmProjects\221\devops_api\cmdb" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.devops_api">
+    <configuration name="dingding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="devops_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libs/dingding.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="git_branch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="devops_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app_release" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_release/git_branch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gitlib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="devops_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libs/gitlib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ssh (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="devops_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libs/ssh.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tencent_cloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="devops_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libs/tencent_cloud.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="devops_api" type="Python.DjangoServer" factoryName="Django server">
+      <module name="devops_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="devops_api.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Program Files\Python3.8\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8080" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.devops_api" />
+      <item itemvalue="Python.ssh (1)" />
+      <item itemvalue="Python.tencent_cloud" />
+      <item itemvalue="Python.git_branch" />
+      <item itemvalue="Python.gitlib" />
+      <item itemvalue="Python.dingding" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dingding" />
+        <item itemvalue="Python.gitlib" />
+        <item itemvalue="Python.git_branch" />
+        <item itemvalue="Python.ssh (1)" />
+        <item itemvalue="Python.tencent_cloud" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ce6fe6e-eaba-4d33-ba17-f64bab9c421d" name="Default Changelist" comment="" />
+      <created>1655605333822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655605333822</updated>
+      <workItem from="1655605336019" duration="17709000" />
+      <workItem from="1655794478467" duration="15000" />
+      <workItem from="1656203741920" duration="22570000" />
+      <workItem from="1656314600395" duration="42000" />
+      <workItem from="1656809433151" duration="15247000" />
+      <workItem from="1656980691482" duration="49000" />
+      <workItem from="1657250050156" duration="12593000" />
+      <workItem from="1657273972121" duration="876000" />
+      <workItem from="1657412669474" duration="18666000" />
+      <workItem from="1657973916679" duration="4351000" />
+      <workItem from="1658018575514" duration="7515000" />
+      <workItem from="1658312304210" duration="883000" />
+      <workItem from="1658624140531" duration="23108000" />
+      <workItem from="1659224305404" duration="14003000" />
+      <workItem from="1709373431368" duration="1968000" />
+      <workItem from="1730127937609" duration="1983000" />
+      <workItem from="1730163577602" duration="649000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="968" y="363" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1657413789179">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="968" y="363" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1657413789179" />
+    <state x="1263" y="494" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1655627067002">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1263" y="494" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1655627067002" />
+    <state x="3634" y="396" width="440" height="488" key="FileChooserDialogImpl" timestamp="1657442022678">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3634" y="396" width="440" height="488" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1657442022678" />
+    <state width="1624" height="97" key="GridCell.Tab.0.bottom" timestamp="1659246522045">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1624" height="97" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1659246522045" />
+    <state width="1624" height="244" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1658313811256" />
+    <state width="1624" height="97" key="GridCell.Tab.0.center" timestamp="1659246522043">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1624" height="97" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1659246522043" />
+    <state width="1624" height="244" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1658313811256" />
+    <state width="1624" height="97" key="GridCell.Tab.0.left" timestamp="1659246522042">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1624" height="97" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1659246522042" />
+    <state width="1624" height="244" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1658313811256" />
+    <state width="1624" height="97" key="GridCell.Tab.0.right" timestamp="1659246522044">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1624" height="97" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1659246522044" />
+    <state width="1624" height="244" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1658313811256" />
+    <state x="1180" y="434" width="672" height="678" key="search.everywhere.popup" timestamp="1658629661998">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1180" y="434" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1658629661998" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/devops_api$ssh2.coverage" NAME="ssh2 Coverage Results" MODIFIED="1655627623982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cmdb" />
+    <SUITE FILE_PATH="coverage/devops_api$ssh.coverage" NAME="ssh Coverage Results" MODIFIED="1656204984796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cmdb" />
+    <SUITE FILE_PATH="coverage/devops_api$aliyun_cloud.coverage" NAME="aliyun_cloud Coverage Results" MODIFIED="1656225662485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs" />
+    <SUITE FILE_PATH="coverage/devops_api$host_collect.coverage" NAME="host_collect Coverage Results" MODIFIED="1655625815481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cmdb/files" />
+    <SUITE FILE_PATH="coverage/devops_api$gitlib.coverage" NAME="gitlib Coverage Results" MODIFIED="1658632979741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs" />
+    <SUITE FILE_PATH="coverage/devops_api$git_branch.coverage" NAME="git_branch Coverage Results" MODIFIED="1657975791576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app_release" />
+    <SUITE FILE_PATH="coverage/devops_api$ssh__1_.coverage" NAME="ssh (1) Coverage Results" MODIFIED="1657262763653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs" />
+    <SUITE FILE_PATH="coverage/devops_api$dingding.coverage" NAME="dingding Coverage Results" MODIFIED="1659238825500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs" />
+    <SUITE FILE_PATH="coverage/devops_api$tencent_cloud.coverage" NAME="tencent_cloud Coverage Results" MODIFIED="1656228061766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs" />
+  </component>
+</project>
