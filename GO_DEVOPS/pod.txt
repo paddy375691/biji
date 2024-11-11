@@ -1,0 +1,729 @@
+## pod返回结果示例：
+
+{
+    "data": {
+        "items": [
+            {
+                "metadata": {
+                    "name": "nfs-client-provisioner-75754cbc49-4b7jj",
+                    "generateName": "nfs-client-provisioner-75754cbc49-",
+                    "namespace": "default",
+                    "selfLink": "/api/v1/namespaces/default/pods/nfs-client-provisioner-75754cbc49-4b7jj",
+                    "uid": "f94a2a8e-a1c4-4ce6-a184-18e1ed71cfe7",
+                    "resourceVersion": "569327",
+                    "creationTimestamp": "2024-10-27T13:20:15Z",
+                    "labels": {
+                        "app": "nfs-client-provisioner",
+                        "pod-template-hash": "75754cbc49"
+                    },
+                    "ownerReferences": [
+                        {
+                            "apiVersion": "apps/v1",
+                            "kind": "ReplicaSet",
+                            "name": "nfs-client-provisioner-75754cbc49",
+                            "uid": "50e43976-479a-4323-b62e-3b8a45680a0c",
+                            "controller": true,
+                            "blockOwnerDeletion": true
+                        }
+                    ],
+                    "managedFields": [
+                        {
+                            "manager": "kube-controller-manager",
+                            "operation": "Update",
+                            "apiVersion": "v1",
+                            "time": "2024-10-28T15:01:21Z",
+                            "fieldsType": "FieldsV1",
+                            "fieldsV1": {
+                                "f:metadata": {
+                                    "f:generateName": {},
+                                    "f:labels": {
+                                        ".": {},
+                                        "f:app": {},
+                                        "f:pod-template-hash": {}
+                                    },
+                                    "f:ownerReferences": {
+                                        ".": {},
+                                        "k:{\"uid\":\"50e43976-479a-4323-b62e-3b8a45680a0c\"}": {
+                                            ".": {},
+                                            "f:apiVersion": {},
+                                            "f:blockOwnerDeletion": {},
+                                            "f:controller": {},
+                                            "f:kind": {},
+                                            "f:name": {},
+                                            "f:uid": {}
+                                        }
+                                    }
+                                },
+                                "f:spec": {
+                                    "f:containers": {
+                                        "k:{\"name\":\"nfs-client-provisioner\"}": {
+                                            ".": {},
+                                            "f:env": {
+                                                ".": {},
+                                                "k:{\"name\":\"NFS_PATH\"}": {
+                                                    ".": {},
+                                                    "f:name": {},
+                                                    "f:value": {}
+                                                },
+                                                "k:{\"name\":\"NFS_SERVER\"}": {
+                                                    ".": {},
+                                                    "f:name": {},
+                                                    "f:value": {}
+                                                },
+                                                "k:{\"name\":\"PROVISIONER_NAME\"}": {
+                                                    ".": {},
+                                                    "f:name": {},
+                                                    "f:value": {}
+                                                }
+                                            },
+                                            "f:image": {},
+                                            "f:imagePullPolicy": {},
+                                            "f:name": {},
+                                            "f:resources": {},
+                                            "f:terminationMessagePath": {},
+                                            "f:terminationMessagePolicy": {},
+                                            "f:volumeMounts": {
+                                                ".": {},
+                                                "k:{\"mountPath\":\"/persistentvolumes\"}": {
+                                                    ".": {},
+                                                    "f:mountPath": {},
+                                                    "f:name": {}
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "f:dnsPolicy": {},
+                                    "f:enableServiceLinks": {},
+                                    "f:restartPolicy": {},
+                                    "f:schedulerName": {},
+                                    "f:securityContext": {},
+                                    "f:serviceAccount": {},
+                                    "f:serviceAccountName": {},
+                                    "f:terminationGracePeriodSeconds": {},
+                                    "f:volumes": {
+                                        ".": {},
+                                        "k:{\"name\":\"nfs-client-root\"}": {
+                                            ".": {},
+                                            "f:name": {},
+                                            "f:nfs": {
+                                                ".": {},
+                                                "f:path": {},
+                                                "f:server": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "manager": "kubelet",
+                            "operation": "Update",
+                            "apiVersion": "v1",
+                            "time": "2024-11-09T00:14:22Z",
+                            "fieldsType": "FieldsV1",
+                            "fieldsV1": {
+                                "f:status": {
+                                    "f:conditions": {
+                                        "k:{\"type\":\"ContainersReady\"}": {
+                                            ".": {},
+                                            "f:lastProbeTime": {},
+                                            "f:lastTransitionTime": {},
+                                            "f:status": {},
+                                            "f:type": {}
+                                        },
+                                        "k:{\"type\":\"Initialized\"}": {
+                                            ".": {},
+                                            "f:lastProbeTime": {},
+                                            "f:lastTransitionTime": {},
+                                            "f:status": {},
+                                            "f:type": {}
+                                        },
+                                        "k:{\"type\":\"Ready\"}": {
+                                            ".": {},
+                                            "f:lastProbeTime": {},
+                                            "f:lastTransitionTime": {},
+                                            "f:status": {},
+                                            "f:type": {}
+                                        }
+                                    },
+                                    "f:containerStatuses": {},
+                                    "f:hostIP": {},
+                                    "f:phase": {},
+                                    "f:podIP": {},
+                                    "f:podIPs": {
+                                        ".": {},
+                                        "k:{\"ip\":\"10.244.1.35\"}": {
+                                            ".": {},
+                                            "f:ip": {}
+                                        }
+                                    },
+                                    "f:startTime": {}
+                                }
+                            }
+                        }
+                    ]
+                },
+                "spec": {
+                    "volumes": [
+                        {
+                            "name": "nfs-client-root",
+                            "nfs": {
+                                "server": "192.168.201.131",
+                                "path": "/ifs/kubernetes"
+                            }
+                        },
+                        {
+                            "name": "nfs-client-provisioner-token-fndxq",
+                            "secret": {
+                                "secretName": "nfs-client-provisioner-token-fndxq",
+                                "defaultMode": 420
+                            }
+                        }
+                    ],
+                    "containers": [
+                        {
+                            "name": "nfs-client-provisioner",
+                            "image": "quay.io/external_storage/nfs-client-provisioner:latest",
+                            "env": [
+                                {
+                                    "name": "PROVISIONER_NAME",
+                                    "value": "fuseim.pri/ifs"
+                                },
+                                {
+                                    "name": "NFS_SERVER",
+                                    "value": "192.168.201.131"
+                                },
+                                {
+                                    "name": "NFS_PATH",
+                                    "value": "/ifs/kubernetes"
+                                }
+                            ],
+                            "resources": {},
+                            "volumeMounts": [
+                                {
+                                    "name": "nfs-client-root",
+                                    "mountPath": "/persistentvolumes"
+                                },
+                                {
+                                    "name": "nfs-client-provisioner-token-fndxq",
+                                    "readOnly": true,
+                                    "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount"
+                                }
+                            ],
+                            "terminationMessagePath": "/dev/termination-log",
+                            "terminationMessagePolicy": "File",
+                            "imagePullPolicy": "Always"
+                        }
+                    ],
+                    "restartPolicy": "Always",
+                    "terminationGracePeriodSeconds": 30,
+                    "dnsPolicy": "ClusterFirst",
+                    "serviceAccountName": "nfs-client-provisioner",
+                    "serviceAccount": "nfs-client-provisioner",
+                    "nodeName": "node1",
+                    "securityContext": {},
+                    "schedulerName": "default-scheduler",
+                    "tolerations": [
+                        {
+                            "key": "node.kubernetes.io/not-ready",
+                            "operator": "Exists",
+                            "effect": "NoExecute",
+                            "tolerationSeconds": 300
+                        },
+                        {
+                            "key": "node.kubernetes.io/unreachable",
+                            "operator": "Exists",
+                            "effect": "NoExecute",
+                            "tolerationSeconds": 300
+                        }
+                    ],
+                    "priority": 0,
+                    "enableServiceLinks": true
+                },
+                "status": {
+                    "phase": "Running",
+                    "conditions": [
+                        {
+                            "type": "Initialized",
+                            "status": "True",
+                            "lastProbeTime": null,
+                            "lastTransitionTime": "2024-10-27T13:20:17Z"
+                        },
+                        {
+                            "type": "Ready",
+                            "status": "True",
+                            "lastProbeTime": null,
+                            "lastTransitionTime": "2024-10-27T13:22:01Z"
+                        },
+                        {
+                            "type": "ContainersReady",
+                            "status": "True",
+                            "lastProbeTime": null,
+                            "lastTransitionTime": "2024-10-27T13:22:01Z"
+                        },
+                        {
+                            "type": "PodScheduled",
+                            "status": "True",
+                            "lastProbeTime": null,
+                            "lastTransitionTime": "2024-10-27T13:20:17Z"
+                        }
+                    ],
+                    "hostIP": "192.168.201.122",
+                    "podIP": "10.244.1.35",
+                    "podIPs": [
+                        {
+                            "ip": "10.244.1.35"
+                        }
+                    ],
+                    "startTime": "2024-10-27T13:20:17Z",
+                    "containerStatuses": [
+                        {
+                            "name": "nfs-client-provisioner",
+                            "state": {
+                                "running": {
+                                    "startedAt": "2024-10-27T13:21:59Z"
+                                }
+                            },
+                            "lastState": {},
+                            "ready": true,
+                            "restartCount": 0,
+                            "image": "quay.io/external_storage/nfs-client-provisioner:latest",
+                            "imageID": "docker-pullable://quay.io/external_storage/nfs-client-provisioner@sha256:022ea0b0d69834b652a4c53655d78642ae23f0324309097be874fb58d09d2919",
+                            "containerID": "docker://935c9ebc9f35a5fa4b1f481a2d192c3f96d3f09a5757ad760007e24523c7c5a1",
+                            "started": true
+                        }
+                    ],
+                    "qosClass": "BestEffort"
+                }
+            },
+            {
+                "metadata": {
+                    "name": "jenkins-944c6898d-87nwv",
+                    "generateName": "jenkins-944c6898d-",
+                    "namespace": "default",
+                    "selfLink": "/api/v1/namespaces/default/pods/jenkins-944c6898d-87nwv",
+                    "uid": "bac0e1da-6b92-489b-b415-79356aa0bc16",
+                    "resourceVersion": "482577",
+                    "creationTimestamp": "2024-10-21T12:18:12Z",
+                    "labels": {
+                        "name": "jenkins",
+                        "pod-template-hash": "944c6898d"
+                    },
+                    "ownerReferences": [
+                        {
+                            "apiVersion": "apps/v1",
+                            "kind": "ReplicaSet",
+                            "name": "jenkins-944c6898d",
+                            "uid": "b62f12b1-b23b-45ae-9a44-6bda3906e8ac",
+                            "controller": true,
+                            "blockOwnerDeletion": true
+                        }
+                    ],
+                    "managedFields": [
+                        {
+                            "manager": "kube-controller-manager",
+                            "operation": "Update",
+                            "apiVersion": "v1",
+                            "time": "2024-10-21T12:18:12Z",
+                            "fieldsType": "FieldsV1",
+                            "fieldsV1": {
+                                "f:metadata": {
+                                    "f:generateName": {},
+                                    "f:labels": {
+                                        ".": {},
+                                        "f:name": {},
+                                        "f:pod-template-hash": {}
+                                    },
+                                    "f:ownerReferences": {
+                                        ".": {},
+                                        "k:{\"uid\":\"b62f12b1-b23b-45ae-9a44-6bda3906e8ac\"}": {
+                                            ".": {},
+                                            "f:apiVersion": {},
+                                            "f:blockOwnerDeletion": {},
+                                            "f:controller": {},
+                                            "f:kind": {},
+                                            "f:name": {},
+                                            "f:uid": {}
+                                        }
+                                    }
+                                },
+                                "f:spec": {
+                                    "f:containers": {
+                                        "k:{\"name\":\"jenkins\"}": {
+                                            ".": {},
+                                            "f:env": {
+                                                ".": {},
+                                                "k:{\"name\":\"JAVA_OPTS\"}": {
+                                                    ".": {},
+                                                    "f:name": {},
+                                                    "f:value": {}
+                                                },
+                                                "k:{\"name\":\"LIMITS_MEMORY\"}": {
+                                                    ".": {},
+                                                    "f:name": {},
+                                                    "f:valueFrom": {
+                                                        ".": {},
+                                                        "f:resourceFieldRef": {
+                                                            ".": {},
+                                                            "f:divisor": {},
+                                                            "f:resource": {}
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "f:image": {},
+                                            "f:imagePullPolicy": {},
+                                            "f:livenessProbe": {
+                                                ".": {},
+                                                "f:failureThreshold": {},
+                                                "f:httpGet": {
+                                                    ".": {},
+                                                    "f:path": {},
+                                                    "f:port": {},
+                                                    "f:scheme": {}
+                                                },
+                                                "f:initialDelaySeconds": {},
+                                                "f:periodSeconds": {},
+                                                "f:successThreshold": {},
+                                                "f:timeoutSeconds": {}
+                                            },
+                                            "f:name": {},
+                                            "f:ports": {
+                                                ".": {},
+                                                "k:{\"containerPort\":8080,\"protocol\":\"TCP\"}": {
+                                                    ".": {},
+                                                    "f:containerPort": {},
+                                                    "f:protocol": {}
+                                                },
+                                                "k:{\"containerPort\":50000,\"protocol\":\"TCP\"}": {
+                                                    ".": {},
+                                                    "f:containerPort": {},
+                                                    "f:protocol": {}
+                                                }
+                                            },
+                                            "f:readinessProbe": {
+                                                ".": {},
+                                                "f:failureThreshold": {},
+                                                "f:httpGet": {
+                                                    ".": {},
+                                                    "f:path": {},
+                                                    "f:port": {},
+                                                    "f:scheme": {}
+                                                },
+                                                "f:initialDelaySeconds": {},
+                                                "f:periodSeconds": {},
+                                                "f:successThreshold": {},
+                                                "f:timeoutSeconds": {}
+                                            },
+                                            "f:resources": {
+                                                ".": {},
+                                                "f:limits": {
+                                                    ".": {},
+                                                    "f:cpu": {},
+                                                    "f:memory": {}
+                                                },
+                                                "f:requests": {
+                                                    ".": {},
+                                                    "f:cpu": {},
+                                                    "f:memory": {}
+                                                }
+                                            },
+                                            "f:terminationMessagePath": {},
+                                            "f:terminationMessagePolicy": {},
+                                            "f:volumeMounts": {
+                                                ".": {},
+                                                "k:{\"mountPath\":\"/var/jenkins_home\"}": {
+                                                    ".": {},
+                                                    "f:mountPath": {},
+                                                    "f:name": {}
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "f:dnsPolicy": {},
+                                    "f:enableServiceLinks": {},
+                                    "f:restartPolicy": {},
+                                    "f:schedulerName": {},
+                                    "f:securityContext": {
+                                        ".": {},
+                                        "f:fsGroup": {}
+                                    },
+                                    "f:serviceAccount": {},
+                                    "f:serviceAccountName": {},
+                                    "f:terminationGracePeriodSeconds": {},
+                                    "f:volumes": {
+                                        ".": {},
+                                        "k:{\"name\":\"data\"}": {
+                                            ".": {},
+                                            "f:name": {},
+                                            "f:persistentVolumeClaim": {
+                                                ".": {},
+                                                "f:claimName": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "manager": "kube-scheduler",
+                            "operation": "Update",
+                            "apiVersion": "v1",
+                            "time": "2024-10-21T12:18:13Z",
+                            "fieldsType": "FieldsV1",
+                            "fieldsV1": {
+                                "f:status": {
+                                    "f:conditions": {
+                                        ".": {},
+                                        "k:{\"type\":\"PodScheduled\"}": {
+                                            ".": {},
+                                            "f:lastProbeTime": {},
+                                            "f:lastTransitionTime": {},
+                                            "f:message": {},
+                                            "f:reason": {},
+                                            "f:status": {},
+                                            "f:type": {}
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "manager": "kubelet",
+                            "operation": "Update",
+                            "apiVersion": "v1",
+                            "time": "2024-10-21T12:39:30Z",
+                            "fieldsType": "FieldsV1",
+                            "fieldsV1": {
+                                "f:status": {
+                                    "f:conditions": {
+                                        "k:{\"type\":\"ContainersReady\"}": {
+                                            ".": {},
+                                            "f:lastProbeTime": {},
+                                            "f:lastTransitionTime": {},
+                                            "f:status": {},
+                                            "f:type": {}
+                                        },
+                                        "k:{\"type\":\"Initialized\"}": {
+                                            ".": {},
+                                            "f:lastProbeTime": {},
+                                            "f:lastTransitionTime": {},
+                                            "f:status": {},
+                                            "f:type": {}
+                                        },
+                                        "k:{\"type\":\"Ready\"}": {
+                                            ".": {},
+                                            "f:lastProbeTime": {},
+                                            "f:lastTransitionTime": {},
+                                            "f:status": {},
+                                            "f:type": {}
+                                        }
+                                    },
+                                    "f:containerStatuses": {},
+                                    "f:hostIP": {},
+                                    "f:phase": {},
+                                    "f:podIP": {},
+                                    "f:podIPs": {
+                                        ".": {},
+                                        "k:{\"ip\":\"10.244.0.5\"}": {
+                                            ".": {},
+                                            "f:ip": {}
+                                        }
+                                    },
+                                    "f:startTime": {}
+                                }
+                            }
+                        }
+                    ]
+                },
+                "spec": {
+                    "volumes": [
+                        {
+                            "name": "data",
+                            "persistentVolumeClaim": {
+                                "claimName": "jenkins-data"
+                            }
+                        },
+                        {
+                            "name": "jenkins-token-xw9sk",
+                            "secret": {
+                                "secretName": "jenkins-token-xw9sk",
+                                "defaultMode": 420
+                            }
+                        }
+                    ],
+                    "containers": [
+                        {
+                            "name": "jenkins",
+                            "image": "jenkins/jenkins",
+                            "ports": [
+                                {
+                                    "containerPort": 8080,
+                                    "protocol": "TCP"
+                                },
+                                {
+                                    "containerPort": 50000,
+                                    "protocol": "TCP"
+                                }
+                            ],
+                            "env": [
+                                {
+                                    "name": "LIMITS_MEMORY",
+                                    "valueFrom": {
+                                        "resourceFieldRef": {
+                                            "resource": "limits.memory",
+                                            "divisor": "1Mi"
+                                        }
+                                    }
+                                },
+                                {
+                                    "name": "JAVA_OPTS",
+                                    "value": "-Xmx$(LIMITS_MEMORY)m -XshowSettings:vm -Dhudson.slaves.NodeProvisioner.initialDelay=0 -Dhudson.slaves.NodeProvisioner.MARGIN=50 -Dhudson.slaves.NodeProvisioner.MARGIN0=0.85"
+                                }
+                            ],
+                            "resources": {
+                                "limits": {
+                                    "cpu": "1",
+                                    "memory": "1Gi"
+                                },
+                                "requests": {
+                                    "cpu": "500m",
+                                    "memory": "500Mi"
+                                }
+                            },
+                            "volumeMounts": [
+                                {
+                                    "name": "data",
+                                    "mountPath": "/var/jenkins_home"
+                                },
+                                {
+                                    "name": "jenkins-token-xw9sk",
+                                    "readOnly": true,
+                                    "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount"
+                                }
+                            ],
+                            "livenessProbe": {
+                                "httpGet": {
+                                    "path": "/login",
+                                    "port": 8080,
+                                    "scheme": "HTTP"
+                                },
+                                "initialDelaySeconds": 300,
+                                "timeoutSeconds": 5,
+                                "periodSeconds": 10,
+                                "successThreshold": 1,
+                                "failureThreshold": 3
+                            },
+                            "readinessProbe": {
+                                "httpGet": {
+                                    "path": "/login",
+                                    "port": 8080,
+                                    "scheme": "HTTP"
+                                },
+                                "initialDelaySeconds": 60,
+                                "timeoutSeconds": 5,
+                                "periodSeconds": 10,
+                                "successThreshold": 1,
+                                "failureThreshold": 3
+                            },
+                            "terminationMessagePath": "/dev/termination-log",
+                            "terminationMessagePolicy": "File",
+                            "imagePullPolicy": "Always"
+                        }
+                    ],
+                    "restartPolicy": "Always",
+                    "terminationGracePeriodSeconds": 10,
+                    "dnsPolicy": "ClusterFirst",
+                    "serviceAccountName": "jenkins",
+                    "serviceAccount": "jenkins",
+                    "nodeName": "master",
+                    "securityContext": {
+                        "fsGroup": 1000
+                    },
+                    "schedulerName": "default-scheduler",
+                    "tolerations": [
+                        {
+                            "key": "node.kubernetes.io/not-ready",
+                            "operator": "Exists",
+                            "effect": "NoExecute",
+                            "tolerationSeconds": 300
+                        },
+                        {
+                            "key": "node.kubernetes.io/unreachable",
+                            "operator": "Exists",
+                            "effect": "NoExecute",
+                            "tolerationSeconds": 300
+                        }
+                    ],
+                    "priority": 0,
+                    "enableServiceLinks": true
+                },
+                "status": {
+                    "phase": "Running",
+                    "conditions": [
+                        {
+                            "type": "Initialized",
+                            "status": "True",
+                            "lastProbeTime": null,
+                            "lastTransitionTime": "2024-10-21T12:18:16Z"
+                        },
+                        {
+                            "type": "Ready",
+                            "status": "True",
+                            "lastProbeTime": null,
+                            "lastTransitionTime": "2024-10-21T12:39:30Z"
+                        },
+                        {
+                            "type": "ContainersReady",
+                            "status": "True",
+                            "lastProbeTime": null,
+                            "lastTransitionTime": "2024-10-21T12:39:30Z"
+                        },
+                        {
+                            "type": "PodScheduled",
+                            "status": "True",
+                            "lastProbeTime": null,
+                            "lastTransitionTime": "2024-10-21T12:18:16Z"
+                        }
+                    ],
+                    "hostIP": "192.168.201.121",
+                    "podIP": "10.244.0.5",
+                    "podIPs": [
+                        {
+                            "ip": "10.244.0.5"
+                        }
+                    ],
+                    "startTime": "2024-10-21T12:18:16Z",
+                    "containerStatuses": [
+                        {
+                            "name": "jenkins",
+                            "state": {
+                                "running": {
+                                    "startedAt": "2024-10-21T12:38:17Z"
+                                }
+                            },
+                            "lastState": {
+                                "terminated": {
+                                    "exitCode": 5,
+                                    "reason": "Error",
+                                    "startedAt": "2024-10-21T12:21:33Z",
+                                    "finishedAt": "2024-10-21T12:38:12Z",
+                                    "containerID": "docker://77924fb7667a129c98c1b55c07a1c545483f6bb72cf3a0207437ae11ab93241b"
+                                }
+                            },
+                            "ready": true,
+                            "restartCount": 1,
+                            "image": "jenkins/jenkins:latest",
+                            "imageID": "docker-pullable://jenkins/jenkins@sha256:e186b9b9870375ecaecaa2b551d2774beac3e0e576226d05d1d8317ae2df30f3",
+                            "containerID": "docker://22804d6fdfcae5f3f33c47875f67688d98bc10242187f2f659a745bde505230a",
+                            "started": true
+                        }
+                    ],
+                    "qosClass": "Burstable"
+                }
+            }
+        ],
+        "total": 2
+    },
+    "msg": "获取Pod列表成功"
+}
